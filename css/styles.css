@@ -1,0 +1,57 @@
+.clickable li{
+  cursor: pointer;
+  color:#0088cc;
+}
+
+.clickable:hover{
+    text-decoration: underline;
+}
+
+
+h1 {
+  font-size: 50px;
+}
+
+#definition ul li {
+  display: none;
+  background-color: white;
+  border: 1px solid darkgrey;
+  height: 100px;
+  padding-top: 25px;
+  margin-top: 50px;
+}
+
+body {
+  text-align: center;
+  background-color: lightgray;
+}
+
+.dark-background{
+  background-color:black;
+  color: white;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 36px;
+}
+
+#term {
+  border: black solid 1px;
+  border-radius: 10px;
+}
+
+#term ul li {
+  font-size: 28px;
+  text-align: center;
+  padding: 0px;
+}
+
+#term ul {
+  padding: 0px;
+}
