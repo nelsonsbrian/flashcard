@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.0.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Flashcard Game</title>
-  </head>
-  <body>
-    <div class="container">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Stalinist+One" rel="stylesheet">
+  <script src="js/jquery-1.12.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Flashcard Game</title>
+</head>
+<body>
+  <div class="container">
+    <div class="top-head">
       <h1>Flashcard Site</h1>
 
-
       <div class="row">
+              <p></p>
         <div class="col-md-3 clickable" id=term>
-        <h2>Terms</h2>
-        <ul>
+          <h2>Terms</h2>
+          <ul>
             <li class="java">JavaScript (JS)</li>
             <li class="operators">Operators</li>
             <li class="variable">Variables</li>
-            <li class="variable-name">Variable naming conventions</li>
+            <li class="variable-name">Variable naming</li>
             <li class="functions">Functions</li>
             <li class="methods">Methods</li>
             <li class="arguments">Arguments</li>
@@ -35,80 +37,65 @@
             <li class="comments">Comments</li>
             <li class="jQuery">jQuery</li>
             <li class="attributes">Attributes</li>
-        </ul>
+          </ul>
+        </div>
+        <div class="col-md-9" id=definition>
+          <h2>Definition:</h2>
+          <ul>
+            <li class="java">JavaScript is the programming language of HTML and the Web.
+              JavaScript is easy to learn.
+            </li>
+            <li class="operators">The Element.attributes property returns a live collection of all attribute nodes registered to the specified node. It is a NamedNodeMap, not an Array, so it has no Array methods and the Attr nodes' indexes may differ among browsers. To be more specific, attributes is a key/value pair of strings that represents any information regarding that attribute.
+            </li>
+            <li class="variable">JavaScript variables are containers for storing data values.
+            </li>
+            <li class="variable-name">Variable naming conventions</li>
+            <li class="functions">A JavaScript function is a block of code designed
+              to perform a particular task.
+            </li>
+            <li class="methods">JavaScript methods are actions that can be performed on objects.
+            </li>
+            <li class="arguments">The arguments object is a local variable available within all
+              (non-arrow) functions. You can refer to a function's arguments within the
+              function by using the arguments object. This object contains an entry for each
+              argument passed to the function, the first entry's index starting at 0. For example,
+              if a function is passed three arguments, you can refer to them as follows:
+            </li>
+            <li class="parameters">A parameter is a named variable passed into a function.
+              Parameter variables are used to import arguments into functions.
+            </li>
+            <li class="return">The return statement ends function execution and specifies a value to be
+              returned to the function caller.
+            </li>
+            <li class="chain-method"> Function parameters are the names listed in the
+              function definition. Function arguments are the real values passed to
+              (and received by) the function.
+            </li>
+            <li class="strings">The String global object is a constructor for strings or a sequence
+              of characters.
+            </li>
+            <li class="booleans">The Boolean object is an object wrapper for a boolean value.
+            </li>
+            <li class="undefined">The global undefined property represents the primitive value undefined.
+              It is one of JavaScript's primitive types.
+            </li>
+            <li class="nan">The global NaN property is a value representing Not-A-Number.
+            </li>
+            <li class="escape">The escape() function computes a new string in which certain characters have
+              been replaced by a hexadecimal escape sequence.
+            </li>
+            <li class="alert1">The Window.alert() method displays an alert dialog with the optional specified
+              content and an OK button.
+            </li>
+            <li class="comments">The Comment interface represents textual notations within markup; although it is generally not visually shown, such comments are available to be read in the source view. Comments are represented in HTML and XML as content between '<!--' and '-->'. In XML, the character sequence '--' cannot be used within a comment.
+            </li>
+            <li class="jQuery">jQuery is a JavaScript Library that focuses on simplifying DOM manipulation, AJAX calls, and Event handling. It is used by JavaScript developers frequently.
+            </li>
+            <li class="attributes">The Element.attributes property returns a live collection of all attribute nodes registered to the specified node. It is a NamedNodeMap, not an Array, so it has no Array methods and the Attr nodes' indexes may differ among browsers. To be more specific, attributes is a key/value pair of strings that represents any information regarding that attribute.
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-9" id=definition>
-        <h2>Definition:</h2>
-      <ul>
-          <li class="java">JavaScript is the programming language of HTML and the Web.
-            JavaScript is easy to learn.
-          </li>
-          <li class="operators">Function parameters are the names listed in the function
-            definition. Function arguments are the real values passed to (and received by)
-            the function.
-          </li>
-          <li class="variable">JavaScript variables are containers for storing data values.
-          </li>
-          <li class="variable-name">Variable naming conventions</li>
-          <li class="functions">A JavaScript function is a block of code designed
-            to perform a particular task.
-          </li>
-          <li class="methods">JavaScript methods are actions that can be performed on objects.
-          </li>
-          <li class="arguments">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="parameters">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="return">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="chain-method"> Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="strings">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="booleans">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="undefined">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="nan">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="escape">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="alert1">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="comments">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="jQuery">Function parameters are the names listed in the
-            function definition. Function arguments are the real values passed to
-            (and received by) the function.
-          </li>
-          <li class="attributes">Function parameters are the names listed
-            in the function definition. Function arguments are the real values
-             passed to (and received by) the function.
-          </li>
-      </ul>
     </div>
-  </div>
   </body>
-</html>
+  </html>

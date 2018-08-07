@@ -3,33 +3,46 @@
   color:#0088cc;
 }
 
-.clickable:hover{
-    text-decoration: underline;
+.clickable li:hover{
+  text-decoration: underline;
 }
 
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 1450px;
+}
+
+.top-head {
+  border-bottom: 3px solid #5E6264;
+  height: 80px;
+}
+
+#definition ul {
+  background-color: white;
+  border-radius: 5px;
+  border: 3px solid #5E6264;
+  height: 130px;
+  padding-top: 25px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 0px;
 }
 
 #definition ul li {
   display: none;
-  background-color: white;
-  border: 1px solid darkgrey;
-  height: 100px;
-  padding-top: 25px;
-  margin-top: 50px;
+  text-align: center;
+  margin-right: 0px;
+  font-size: 16px;
+  font-family: sans-serif;
 }
 
 body {
   text-align: center;
-  background-color: lightgray;
-}
-
-.dark-background{
-  background-color:black;
-  color: white;
-
+  height: 2000px;
+  background: linear-gradient(to bottom right, #D9EBF7, #82B2CF)
 }
 
 ul {
@@ -39,11 +52,13 @@ ul {
 h2 {
   text-decoration: underline;
   font-size: 36px;
+  font-family: 'Stalinist One', cursive;
+  font-weight: bold;
 }
 
 #term {
-  border: black solid 1px;
-  border-radius: 10px;
+  border: #5E6264 solid 3px;
+  border-radius: 15px;
 }
 
 #term ul li {
