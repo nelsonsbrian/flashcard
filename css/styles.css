@@ -31,6 +31,10 @@ h1 {
   padding-left: 0px;
 }
 
+#definition {
+    height: 900px;
+}
+
 #definition ul li {
   display: none;
   text-align: center;
@@ -41,8 +45,8 @@ h1 {
 
 body {
   text-align: center;
-  height: 2000px;
-  background: linear-gradient(to bottom right, #D9EBF7, #82B2CF)
+  height: 1350px;
+  background: linear-gradient(to bottom right, #D9EBF7, #82B2CF);
 }
 
 ul {
@@ -59,6 +63,7 @@ h2 {
 #term {
   border: #5E6264 solid 3px;
   border-radius: 15px;
+  height: 900px;
 }
 
 #term ul li {
@@ -69,4 +74,19 @@ h2 {
 
 #term ul {
   padding: 0px;
+}
+
+.button-theme {
+  text-align: left;
+  margin: 10%;
+  margin-top: 30px;
+}
+
+#change-themes {
+
+}
+
+.dark-background{
+  background: none;
+  background: linear-gradient(to bottom right, #F7C69D,#F3A768);
 }

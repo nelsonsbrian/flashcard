@@ -5,6 +5,9 @@ $(document).ready(function() {
     $("#definition ." + $(this).attr("class")).toggle();
   });
 
+  $("#change-theme").click(function(){
+    $("body").toggleClass("dark-background");
+  });
   // $("#term .java").click(function() {
   //   $("#definition ul li").hide();
   //   $("#definition .java").toggle();
